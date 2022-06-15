@@ -2,17 +2,10 @@
 <html lang="en">
 
 
-<!-- Mirrored from demo.dashboardpack.com/adminty-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Aug 2021 08:10:26 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <title>Adminty - Premium Admin Template by Colorlib </title>
-    <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 10]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-    <!-- Meta -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,7 +16,7 @@
     <!-- Favicon icon -->
     <link rel="icon" href="{{ asset('template') }}/files/assets/images/favicon.ico" type="image/x-icon">
     <!-- Google font-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet"> -->
     <!-- Required Fremwork -->
     <link rel="stylesheet" type="text/css" href="{{ asset('template') }}/files/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- feather Awesome -->
@@ -187,22 +180,22 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="default/user-profile.html">
+                                            <a href="{{ asset('template') }}/default/user-profile.html">
                                                 <i class="feather icon-user"></i> Profile
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="default/email-inbox.html">
+                                            <a href="{{ asset('template') }}/default/email-inbox.html">
                                                 <i class="feather icon-mail"></i> My Messages
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="default/auth-lock-screen.html">
+                                            <a href="{{ asset('template') }}/default/auth-lock-screen.html">
                                                 <i class="feather icon-lock"></i> Lock Screen
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="default/auth-normal-sign-in.html">
+                                            <a href="{{ asset('template') }}/default/auth-normal-sign-in.html">
                                                 <i class="feather icon-log-out"></i> Logout
                                             </a>
                                         </li>
@@ -350,17 +343,17 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="active">
-                                            <a href="default/index.html">
+                                            <a href="{{ asset('template') }}/default/index.html">
                                                 <span class="pcoded-mtext">Default</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/dashboard-crm.html">
+                                            <a href="{{ asset('template') }}/default/dashboard-crm.html">
                                                 <span class="pcoded-mtext">CRM</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dashboard-analytics.html">
+                                            <a href="{{ asset('template') }}/default/dashboard-analytics.html">
                                                 <span class="pcoded-mtext">Analytics</span>
                                                 <span class="pcoded-badge label label-info ">NEW</span>
                                             </a>
@@ -380,22 +373,22 @@
                                             </a>
                                             <ul class="pcoded-submenu">
                                                 <li class=" ">
-                                                    <a href="default/menu-static.html">
+                                                    <a href="{{ asset('template') }}/default/menu-static.html">
                                                         <span class="pcoded-mtext">Static Layout</span>
                                                     </a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="default/menu-header-fixed.html">
+                                                    <a href="{{ asset('template') }}/default/menu-header-fixed.html">
                                                         <span class="pcoded-mtext">Header Fixed</span>
                                                     </a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="default/menu-compact.html">
+                                                    <a href="{{ asset('template') }}/default/menu-compact.html">
                                                         <span class="pcoded-mtext">Compact</span>
                                                     </a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="default/menu-sidebar.html">
+                                                    <a href="{{ asset('template') }}/default/menu-sidebar.html">
                                                         <span class="pcoded-mtext">Sidebar Fixed</span>
                                                     </a>
                                                 </li>
@@ -408,46 +401,46 @@
                                             </a>
                                             <ul class="pcoded-submenu">
                                                 <li class=" ">
-                                                    <a href="default/menu-horizontal-static.html" target="_blank">
+                                                    <a href="{{ asset('template') }}/default/menu-horizontal-static.html" target="_blank">
                                                         <span class="pcoded-mtext">Static Layout</span>
                                                     </a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="default/menu-horizontal-fixed.html" target="_blank">
+                                                    <a href="{{ asset('template') }}/default/menu-horizontal-fixed.html" target="_blank">
                                                         <span class="pcoded-mtext">Fixed layout</span>
                                                     </a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="default/menu-horizontal-icon.html" target="_blank">
+                                                    <a href="{{ asset('template') }}/default/menu-horizontal-icon.html" target="_blank">
                                                         <span class="pcoded-mtext">Static With Icon</span>
                                                     </a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="default/menu-horizontal-icon-fixed.html" target="_blank">
+                                                    <a href="{{ asset('template') }}/default/menu-horizontal-icon-fixed.html" target="_blank">
                                                         <span class="pcoded-mtext">Fixed With Icon</span>
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/menu-bottom.html">
+                                            <a href="{{ asset('template') }}/default/menu-bottom.html">
                                                 <span class="pcoded-mtext">Bottom Menu</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/box-layout.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/box-layout.html" target="_blank">
                                                 <span class="pcoded-mtext">Box Layout</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/menu-rtl.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/menu-rtl.html" target="_blank">
                                                 <span class="pcoded-mtext">RTL</span>
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="">
-                                    <a href="default/navbar-light.html">
+                                    <a href="{{ asset('template') }}/default/navbar-light.html">
                                         <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
                                         <span class="pcoded-mtext">Navigation</span>
                                     </a>
@@ -460,17 +453,17 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/widget-statistic.html">
+                                            <a href="{{ asset('template') }}/default/widget-statistic.html">
                                                 <span class="pcoded-mtext">Statistic</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/widget-data.html">
+                                            <a href="{{ asset('template') }}/default/widget-data.html">
                                                 <span class="pcoded-mtext">Data</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/widget-chart.html">
+                                            <a href="{{ asset('template') }}/default/widget-chart.html">
                                                 <span class="pcoded-mtext">Chart Widget</span>
                                             </a>
                                         </li>
@@ -487,77 +480,77 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/alert.html">
+                                            <a href="{{ asset('template') }}/default/alert.html">
                                                 <span class="pcoded-mtext">Alert</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/breadcrumb.html">
+                                            <a href="{{ asset('template') }}/default/breadcrumb.html">
                                                 <span class="pcoded-mtext">Breadcrumbs</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/button.html">
+                                            <a href="{{ asset('template') }}/default/button.html">
                                                 <span class="pcoded-mtext">Button</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/box-shadow.html">
+                                            <a href="{{ asset('template') }}/default/box-shadow.html">
                                                 <span class="pcoded-mtext">Box-Shadow</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/accordion.html">
+                                            <a href="{{ asset('template') }}/default/accordion.html">
                                                 <span class="pcoded-mtext">Accordion</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/generic-class.html">
+                                            <a href="{{ asset('template') }}/default/generic-class.html">
                                                 <span class="pcoded-mtext">Generic Class</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/tabs.html">
+                                            <a href="{{ asset('template') }}/default/tabs.html">
                                                 <span class="pcoded-mtext">Tabs</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/color.html">
+                                            <a href="{{ asset('template') }}/default/color.html">
                                                 <span class="pcoded-mtext">Color</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/label-badge.html">
+                                            <a href="{{ asset('template') }}/default/label-badge.html">
                                                 <span class="pcoded-mtext">Label Badge</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/progress-bar.html">
+                                            <a href="{{ asset('template') }}/default/progress-bar.html">
                                                 <span class="pcoded-mtext">Progress Bar</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/preloader.html">
+                                            <a href="{{ asset('template') }}/default/preloader.html">
                                                 <span class="pcoded-mtext">Pre-Loader</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/list.html">
+                                            <a href="{{ asset('template') }}/default/list.html">
                                                 <span class="pcoded-mtext">List</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/tooltip.html">
+                                            <a href="{{ asset('template') }}/default/tooltip.html">
                                                 <span class="pcoded-mtext">Tooltip And Popover</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/typography.html">
+                                            <a href="{{ asset('template') }}/default/typography.html">
                                                 <span class="pcoded-mtext">Typography</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/other.html">
+                                            <a href="{{ asset('template') }}/default/other.html">
                                                 <span class="pcoded-mtext">Other</span>
                                             </a>
                                         </li>
@@ -570,58 +563,58 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/draggable.html">
+                                            <a href="{{ asset('template') }}/default/draggable.html">
                                                 <span class="pcoded-mtext">Draggable</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/bs-grid.html">
+                                            <a href="{{ asset('template') }}/default/bs-grid.html">
                                                 <span class="pcoded-mtext">Grid Stack</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/light-box.html">
+                                            <a href="{{ asset('template') }}/default/light-box.html">
                                                 <span class="pcoded-mtext">Light Box</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/modal.html">
+                                            <a href="{{ asset('template') }}/default/modal.html">
                                                 <span class="pcoded-mtext">Modal</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/notification.html">
+                                            <a href="{{ asset('template') }}/default/notification.html">
                                                 <span class="pcoded-mtext">Notifications</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/notify.html">
+                                            <a href="{{ asset('template') }}/default/notify.html">
                                                 <span class="pcoded-mtext">PNOTIFY</span>
                                                 <span class="pcoded-badge label label-info">NEW</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/rating.html">
+                                            <a href="{{ asset('template') }}/default/rating.html">
                                                 <span class="pcoded-mtext">Rating</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/range-slider.html">
+                                            <a href="{{ asset('template') }}/default/range-slider.html">
                                                 <span class="pcoded-mtext">Range Slider</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/slider.html">
+                                            <a href="{{ asset('template') }}/default/slider.html">
                                                 <span class="pcoded-mtext">Slider</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/syntax-highlighter.html">
+                                            <a href="{{ asset('template') }}/default/syntax-highlighter.html">
                                                 <span class="pcoded-mtext">Syntax Highlighter</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/tour.html">
+                                            <a href="{{ asset('template') }}/default/tour.html">
                                                 <span class="pcoded-mtext">Tour</span>
                                             </a>
                                         </li>
@@ -631,17 +624,17 @@
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/nestable.html">
+                                            <a href="{{ asset('template') }}/default/nestable.html">
                                                 <span class="pcoded-mtext">Nestable</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/toolbar.html">
+                                            <a href="{{ asset('template') }}/default/toolbar.html">
                                                 <span class="pcoded-mtext">Toolbar</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/x-editable.html">
+                                            <a href="{{ asset('template') }}/default/x-editable.html">
                                                 <span class="pcoded-mtext">X-Editable</span>
                                             </a>
                                         </li>
@@ -654,17 +647,17 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/session-timeout.html">
+                                            <a href="{{ asset('template') }}/default/session-timeout.html">
                                                 <span class="pcoded-mtext">Session Timeout</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/session-idle-timeout.html">
+                                            <a href="{{ asset('template') }}/default/session-idle-timeout.html">
                                                 <span class="pcoded-mtext">Session Idle Timeout</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/offline.html">
+                                            <a href="{{ asset('template') }}/default/offline.html">
                                                 <span class="pcoded-mtext">Offline</span>
                                             </a>
                                         </li>
@@ -672,14 +665,14 @@
                                     </ul>
                                 </li>
                                 <li class=" ">
-                                    <a href="default/animation.html">
+                                    <a href="{{ asset('template') }}/default/animation.html">
                                         <span class="pcoded-micon"><i
                                                 class="feather icon-aperture rotate-refresh"></i><b>A</b></span>
                                         <span class="pcoded-mtext">Animations</span>
                                     </a>
                                 </li>
                                 <li class=" ">
-                                    <a href="default/sticky.html">
+                                    <a href="{{ asset('template') }}/default/sticky.html">
                                         <span class="pcoded-micon"><i class="feather icon-cpu"></i></span>
                                         <span class="pcoded-mtext">Sticky Notes</span>
                                         <span class="pcoded-badge label label-danger">HOT</span>
@@ -692,47 +685,47 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/icon-font-awesome.html">
+                                            <a href="{{ asset('template') }}/default/icon-font-awesome.html">
                                                 <span class="pcoded-mtext">Font Awesome</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/icon-themify.html">
+                                            <a href="{{ asset('template') }}/default/icon-themify.html">
                                                 <span class="pcoded-mtext">Themify</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/icon-simple-line.html">
+                                            <a href="{{ asset('template') }}/default/icon-simple-line.html">
                                                 <span class="pcoded-mtext">Simple Line Icon</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/icon-ion.html">
+                                            <a href="{{ asset('template') }}/default/icon-ion.html">
                                                 <span class="pcoded-mtext">Ion Icon</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/icon-material-design.html">
+                                            <a href="{{ asset('template') }}/default/icon-material-design.html">
                                                 <span class="pcoded-mtext">Material Design</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/icon-icofonts.html">
+                                            <a href="{{ asset('template') }}/default/icon-icofonts.html">
                                                 <span class="pcoded-mtext">Ico Fonts</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/icon-weather.html">
+                                            <a href="{{ asset('template') }}/default/icon-weather.html">
                                                 <span class="pcoded-mtext">Weather Icon</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/icon-typicons.html">
+                                            <a href="{{ asset('template') }}/default/icon-typicons.html">
                                                 <span class="pcoded-mtext">Typicons</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/icon-flags.html">
+                                            <a href="{{ asset('template') }}/default/icon-flags.html">
                                                 <span class="pcoded-mtext">Flags</span>
                                             </a>
                                         </li>
@@ -748,48 +741,48 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/form-elements-component.html">
+                                            <a href="{{ asset('template') }}/default/form-elements-component.html">
                                                 <span class="pcoded-mtext">Form Components</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/form-elements-add-on.html">
+                                            <a href="{{ asset('template') }}/default/form-elements-add-on.html">
                                                 <span class="pcoded-mtext">Form-Elements-Add-On</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/form-elements-advance.html">
+                                            <a href="{{ asset('template') }}/default/form-elements-advance.html">
                                                 <span class="pcoded-mtext">Form-Elements-Advance</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/form-validation.html">
+                                            <a href="{{ asset('template') }}/default/form-validation.html">
                                                 <span class="pcoded-mtext">Form Validation</span>
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class=" ">
-                                    <a href="default/form-picker.html">
+                                    <a href="{{ asset('template') }}/default/form-picker.html">
                                         <span class="pcoded-micon"><i class="feather icon-edit-1"></i></span>
                                         <span class="pcoded-mtext">Form Picker</span>
                                         <span class="pcoded-badge label label-warning">NEW</span>
                                     </a>
                                 </li>
                                 <li class=" ">
-                                    <a href="default/form-select.html">
+                                    <a href="{{ asset('template') }}/default/form-select.html">
                                         <span class="pcoded-micon"><i class="feather icon-feather"></i></span>
                                         <span class="pcoded-mtext">Form Select</span>
                                     </a>
                                 </li>
                                 <li class=" ">
-                                    <a href="default/form-masking.html">
+                                    <a href="{{ asset('template') }}/default/form-masking.html">
                                         <span class="pcoded-micon"><i class="feather icon-shield"></i></span>
                                         <span class="pcoded-mtext">Form Masking</span>
                                     </a>
                                 </li>
                                 <li class=" ">
-                                    <a href="default/form-wizard.html">
+                                    <a href="{{ asset('template') }}/default/form-wizard.html">
                                         <span class="pcoded-micon"><i class="feather icon-tv"></i></span>
                                         <span class="pcoded-mtext">Form Wizard</span>
                                     </a>
@@ -802,77 +795,77 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/ready-cloned-elements-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-cloned-elements-form.html">
                                                 <span class="pcoded-mtext">Cloned Elements Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-currency-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-currency-form.html">
                                                 <span class="pcoded-mtext">Currency Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-form-booking.html">
+                                            <a href="{{ asset('template') }}/default/ready-form-booking.html">
                                                 <span class="pcoded-mtext">Booking Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-form-booking-multi-steps.html">
+                                            <a href="{{ asset('template') }}/default/ready-form-booking-multi-steps.html">
                                                 <span class="pcoded-mtext">Booking Multi Steps Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-form-comment.html">
+                                            <a href="{{ asset('template') }}/default/ready-form-comment.html">
                                                 <span class="pcoded-mtext">Comment Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-form-contact.html">
+                                            <a href="{{ asset('template') }}/default/ready-form-contact.html">
                                                 <span class="pcoded-mtext">Contact Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-job-application-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-job-application-form.html">
                                                 <span class="pcoded-mtext">Job Application Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-js-addition-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-js-addition-form.html">
                                                 <span class="pcoded-mtext">JS Addition Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-login-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-login-form.html">
                                                 <span class="pcoded-mtext">Login Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-popup-modal-form.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/ready-popup-modal-form.html" target="_blank">
                                                 <span class="pcoded-mtext">Popup Modal Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-registration-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-registration-form.html">
                                                 <span class="pcoded-mtext">Registration Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-review-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-review-form.html">
                                                 <span class="pcoded-mtext">Review Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-subscribe-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-subscribe-form.html">
                                                 <span class="pcoded-mtext">Subscribe Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-suggestion-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-suggestion-form.html">
                                                 <span class="pcoded-mtext">Suggestion Form</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/ready-tabs-form.html">
+                                            <a href="{{ asset('template') }}/default/ready-tabs-form.html">
                                                 <span class="pcoded-mtext">Tabs Form</span>
                                             </a>
                                         </li>
@@ -888,22 +881,22 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/bs-basic-table.html">
+                                            <a href="{{ asset('template') }}/default/bs-basic-table.html">
                                                 <span class="pcoded-mtext">Basic Table</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/bs-table-sizing.html">
+                                            <a href="{{ asset('template') }}/default/bs-table-sizing.html">
                                                 <span class="pcoded-mtext">Sizing Table</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/bs-table-border.html">
+                                            <a href="{{ asset('template') }}/default/bs-table-border.html">
                                                 <span class="pcoded-mtext">Border Table</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/bs-table-styling.html">
+                                            <a href="{{ asset('template') }}/default/bs-table-styling.html">
                                                 <span class="pcoded-mtext">Styling Table</span>
                                             </a>
                                         </li>
@@ -917,42 +910,42 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/dt-basic.html">
+                                            <a href="{{ asset('template') }}/default/dt-basic.html">
                                                 <span class="pcoded-mtext">Basic Initialization</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-advance.html">
+                                            <a href="{{ asset('template') }}/default/dt-advance.html">
                                                 <span class="pcoded-mtext">Advance Initialization</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-styling.html">
+                                            <a href="{{ asset('template') }}/default/dt-styling.html">
                                                 <span class="pcoded-mtext">Styling</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-api.html">
+                                            <a href="{{ asset('template') }}/default/dt-api.html">
                                                 <span class="pcoded-mtext">API</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ajax.html">
+                                            <a href="{{ asset('template') }}/default/dt-ajax.html">
                                                 <span class="pcoded-mtext">Ajax</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-server-side.html">
+                                            <a href="{{ asset('template') }}/default/dt-server-side.html">
                                                 <span class="pcoded-mtext">Server Side</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-plugin.html">
+                                            <a href="{{ asset('template') }}/default/dt-plugin.html">
                                                 <span class="pcoded-mtext">Plug-In</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-data-sources.html">
+                                            <a href="{{ asset('template') }}/default/dt-data-sources.html">
                                                 <span class="pcoded-mtext">Data Sources</span>
                                             </a>
                                         </li>
@@ -966,7 +959,7 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="default/dt-ext-autofill.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-autofill.html">
                                                 <span class="pcoded-mtext">AutoFill</span>
                                             </a>
                                         </li>
@@ -976,61 +969,61 @@
                                             </a>
                                             <ul class="pcoded-submenu">
                                                 <li class=" ">
-                                                    <a href="default/dt-ext-basic-buttons.html">
+                                                    <a href="{{ asset('template') }}/default/dt-ext-basic-buttons.html">
                                                         <span class="pcoded-mtext">Basic Button</span>
                                                     </a>
                                                 </li>
                                                 <li class=" ">
-                                                    <a href="default/dt-ext-buttons-html-5-data-export.html">
+                                                    <a href="{{ asset('template') }}/default/dt-ext-buttons-html-5-data-export.html">
                                                         <span class="pcoded-mtext">Html-5 Data Export</span>
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ext-col-reorder.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-col-reorder.html">
                                                 <span class="pcoded-mtext">Col Reorder</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ext-fixed-columns.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-fixed-columns.html">
                                                 <span class="pcoded-mtext">Fixed Columns</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ext-fixed-header.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-fixed-header.html">
                                                 <span class="pcoded-mtext">Fixed Header</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ext-key-table.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-key-table.html">
                                                 <span class="pcoded-mtext">Key Table</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ext-responsive.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-responsive.html">
                                                 <span class="pcoded-mtext">Responsive</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ext-row-reorder.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-row-reorder.html">
                                                 <span class="pcoded-mtext">Row Reorder</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ext-scroller.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-scroller.html">
                                                 <span class="pcoded-mtext">Scroller</span>
                                             </a>
                                         </li>
                                         <li class=" ">
-                                            <a href="default/dt-ext-select.html">
+                                            <a href="{{ asset('template') }}/default/dt-ext-select.html">
                                                 <span class="pcoded-mtext">Select Table</span>
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class=" ">
-                                    <a href="default/foo-table.html">
+                                    <a href="{{ asset('template') }}/default/foo-table.html">
                                         <span class="pcoded-micon"><i class="feather icon-hash"></i></span>
                                         <span class="pcoded-mtext">FooTable</span>
                                     </a>
@@ -1042,54 +1035,54 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/handson-appearance.html">
+                                            <a href="{{ asset('template') }}/default/handson-appearance.html">
                                                 <span class="pcoded-mtext">Appearance</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/handson-data-operation.html">
+                                            <a href="{{ asset('template') }}/default/handson-data-operation.html">
                                                 <span class="pcoded-mtext">Data Operation</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/handson-rows-cols.html">
+                                            <a href="{{ asset('template') }}/default/handson-rows-cols.html">
                                                 <span class="pcoded-mtext">Rows Columns</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/handson-columns-only.html">
+                                            <a href="{{ asset('template') }}/default/handson-columns-only.html">
                                                 <span class="pcoded-mtext">Columns Only</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/handson-cell-features.html">
+                                            <a href="{{ asset('template') }}/default/handson-cell-features.html">
                                                 <span class="pcoded-mtext">Cell Features</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/handson-cell-types.html">
+                                            <a href="{{ asset('template') }}/default/handson-cell-types.html">
                                                 <span class="pcoded-mtext">Cell Types</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/handson-integrations.html">
+                                            <a href="{{ asset('template') }}/default/handson-integrations.html">
                                                 <span class="pcoded-mtext">Integrations</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/handson-rows-only.html">
+                                            <a href="{{ asset('template') }}/default/handson-rows-only.html">
                                                 <span class="pcoded-mtext">Rows Only</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/handson-utilities.html">
+                                            <a href="{{ asset('template') }}/default/handson-utilities.html">
                                                 <span class="pcoded-mtext">Utilities</span>
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="">
-                                    <a href="default/editable-table.html">
+                                    <a href="{{ asset('template') }}/default/editable-table.html">
                                         <span class="pcoded-micon"><i class="feather icon-edit"></i></span>
                                         <span class="pcoded-mtext">Editable Table</span>
                                     </a>
@@ -1104,37 +1097,37 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/chart-google.html">
+                                            <a href="{{ asset('template') }}/default/chart-google.html">
                                                 <span class="pcoded-mtext">Google Chart</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-echart.html">
+                                            <a href="{{ asset('template') }}/default/chart-echart.html">
                                                 <span class="pcoded-mtext">Echarts</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-chartjs.html">
+                                            <a href="{{ asset('template') }}/default/chart-chartjs.html">
                                                 <span class="pcoded-mtext">ChartJs</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-list.html">
+                                            <a href="{{ asset('template') }}/default/chart-list.html">
                                                 <span class="pcoded-mtext">List Chart</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-float.html">
+                                            <a href="{{ asset('template') }}/default/chart-float.html">
                                                 <span class="pcoded-mtext">Float Chart</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-knob.html">
+                                            <a href="{{ asset('template') }}/default/chart-knob.html">
                                                 <span class="pcoded-mtext">Knob chart</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-morris.html">
+                                            <a href="{{ asset('template') }}/default/chart-morris.html">
                                                 <span class="pcoded-mtext">Morris Chart</span>
                                             </a>
                                         </li>
@@ -1144,27 +1137,27 @@
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-peity.html">
+                                            <a href="{{ asset('template') }}/default/chart-peity.html">
                                                 <span class="pcoded-mtext">Peity Chart</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-radial.html">
+                                            <a href="{{ asset('template') }}/default/chart-radial.html">
                                                 <span class="pcoded-mtext">Radial Chart</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-rickshaw.html">
+                                            <a href="{{ asset('template') }}/default/chart-rickshaw.html">
                                                 <span class="pcoded-mtext">Rickshaw Chart</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-sparkline.html">
+                                            <a href="{{ asset('template') }}/default/chart-sparkline.html">
                                                 <span class="pcoded-mtext">Sparkline Chart</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/chart-c3.html">
+                                            <a href="{{ asset('template') }}/default/chart-c3.html">
                                                 <span class="pcoded-mtext">C3 Chart</span>
                                             </a>
                                         </li>
@@ -1177,22 +1170,22 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/map-google.html">
+                                            <a href="{{ asset('template') }}/default/map-google.html">
                                                 <span class="pcoded-mtext">Google Maps</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/map-vector.html">
+                                            <a href="{{ asset('template') }}/default/map-vector.html">
                                                 <span class="pcoded-mtext">Vector Maps</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/map-api.html">
+                                            <a href="{{ asset('template') }}/default/map-api.html">
                                                 <span class="pcoded-mtext">Google Map Search API</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/location.html">
+                                            <a href="{{ asset('template') }}/default/location.html">
                                                 <span class="pcoded-mtext">Location</span>
                                             </a>
                                         </li>
@@ -1214,63 +1207,63 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/auth-normal-sign-in.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-normal-sign-in.html" target="_blank">
                                                 <span class="pcoded-mtext">Login With BG Image</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-sign-in-social.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-sign-in-social.html" target="_blank">
                                                 <span class="pcoded-mtext">Login With Social Icon</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-sign-in-social-header-footer.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-sign-in-social-header-footer.html" target="_blank">
                                                 <span class="pcoded-mtext">Login Social With Header And Footer</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-normal-sign-in-header-footer.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-normal-sign-in-header-footer.html" target="_blank">
                                                 <span class="pcoded-mtext">Login With Header And Footer</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-sign-up.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-sign-up.html" target="_blank">
                                                 <span class="pcoded-mtext">Registration BG Image</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-sign-up-social.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-sign-up-social.html" target="_blank">
                                                 <span class="pcoded-mtext">Registration Social Icon</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-sign-up-social-header-footer.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-sign-up-social-header-footer.html" target="_blank">
                                                 <span class="pcoded-mtext">Registration Social With Header And
                                                     Footer</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-sign-up-header-footer.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-sign-up-header-footer.html" target="_blank">
                                                 <span class="pcoded-mtext">Registration With Header And Footer</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-multi-step-sign-up.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-multi-step-sign-up.html" target="_blank">
                                                 <span class="pcoded-mtext">Multi Step Registration</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-reset-password.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-reset-password.html" target="_blank">
                                                 <span class="pcoded-mtext">Forgot Password</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-lock-screen.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-lock-screen.html" target="_blank">
                                                 <span class="pcoded-mtext">Lock Screen</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/auth-modal.html" target="_blank">
+                                            <a href="{{ asset('template') }}/default/auth-modal.html" target="_blank">
                                                 <span class="pcoded-mtext">Modal</span>
                                             </a>
                                         </li>
@@ -1283,17 +1276,17 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/error.html">
+                                            <a href="{{ asset('template') }}/default/error.html">
                                                 <span class="pcoded-mtext">Error</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/comming-soon.html">
+                                            <a href="{{ asset('template') }}/default/comming-soon.html">
                                                 <span class="pcoded-mtext">Comming Soon</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/offline-ui.html">
+                                            <a href="{{ asset('template') }}/default/offline-ui.html">
                                                 <span class="pcoded-mtext">Offline UI</span>
                                             </a>
                                         </li>
@@ -1306,22 +1299,22 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/timeline.html">
+                                            <a href="{{ asset('template') }}/default/timeline.html">
                                                 <span class="pcoded-mtext">Timeline</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/timeline-social.html">
+                                            <a href="{{ asset('template') }}/default/timeline-social.html">
                                                 <span class="pcoded-mtext">Timeline Social</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/user-profile.html">
+                                            <a href="{{ asset('template') }}/default/user-profile.html">
                                                 <span class="pcoded-mtext">User Profile</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/user-card.html">
+                                            <a href="{{ asset('template') }}/default/user-card.html">
                                                 <span class="pcoded-mtext">User Card</span>
                                             </a>
                                         </li>
@@ -1335,32 +1328,32 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/product.html">
+                                            <a href="{{ asset('template') }}/default/product.html">
                                                 <span class="pcoded-mtext">Product</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/product-list.html">
+                                            <a href="{{ asset('template') }}/default/product-list.html">
                                                 <span class="pcoded-mtext">Product List</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/product-edit.html">
+                                            <a href="{{ asset('template') }}/default/product-edit.html">
                                                 <span class="pcoded-mtext">Product Edit</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/product-detail.html">
+                                            <a href="{{ asset('template') }}/default/product-detail.html">
                                                 <span class="pcoded-mtext">Product Detail</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/product-cart.html">
+                                            <a href="{{ asset('template') }}/default/product-cart.html">
                                                 <span class="pcoded-mtext">Product Card</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/product-payment.html">
+                                            <a href="{{ asset('template') }}/default/product-payment.html">
                                                 <span class="pcoded-mtext">Credit Card Form</span>
                                             </a>
                                         </li>
@@ -1373,17 +1366,17 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/email-compose.html">
+                                            <a href="{{ asset('template') }}/default/email-compose.html">
                                                 <span class="pcoded-mtext">Compose Email</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/email-inbox.html">
+                                            <a href="{{ asset('template') }}/default/email-inbox.html">
                                                 <span class="pcoded-mtext">Inbox</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/email-read.html">
+                                            <a href="{{ asset('template') }}/default/email-read.html">
                                                 <span class="pcoded-mtext">Read Mail</span>
                                             </a>
                                         </li>
@@ -1427,7 +1420,7 @@
                             <div class="pcoded-navigatio-lavel">App</div>
                             <ul class="pcoded-item pcoded-left-item">
                                 <li class=" ">
-                                    <a href="default/chat.html">
+                                    <a href="{{ asset('template') }}/default/chat.html">
                                         <span class="pcoded-micon"><i class="feather icon-message-square"></i></span>
                                         <span class="pcoded-mtext">Chat</span>
                                     </a>
@@ -1439,12 +1432,12 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/fb-wall.html">
+                                            <a href="{{ asset('template') }}/default/fb-wall.html">
                                                 <span class="pcoded-mtext">Wall</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/message.html">
+                                            <a href="{{ asset('template') }}/default/message.html">
                                                 <span class="pcoded-mtext">Messages</span>
                                             </a>
                                         </li>
@@ -1457,22 +1450,22 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/task-list.html">
+                                            <a href="{{ asset('template') }}/default/task-list.html">
                                                 <span class="pcoded-mtext">Task List</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/task-board.html">
+                                            <a href="{{ asset('template') }}/default/task-board.html">
                                                 <span class="pcoded-mtext">Task Board</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/task-detail.html">
+                                            <a href="{{ asset('template') }}/default/task-detail.html">
                                                 <span class="pcoded-mtext">Task Detail</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/issue-list.html">
+                                            <a href="{{ asset('template') }}/default/issue-list.html">
                                                 <span class="pcoded-mtext">Issue List</span>
                                             </a>
                                         </li>
@@ -1485,12 +1478,12 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/todo.html">
+                                            <a href="{{ asset('template') }}/default/todo.html">
                                                 <span class="pcoded-mtext">To-Do</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/notes.html">
+                                            <a href="{{ asset('template') }}/default/notes.html">
                                                 <span class="pcoded-mtext">Notes</span>
                                             </a>
                                         </li>
@@ -1503,17 +1496,17 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/gallery-grid.html">
+                                            <a href="{{ asset('template') }}/default/gallery-grid.html">
                                                 <span class="pcoded-mtext">Gallery-Grid</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/gallery-masonry.html">
+                                            <a href="{{ asset('template') }}/default/gallery-masonry.html">
                                                 <span class="pcoded-mtext">Masonry Gallery</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/gallery-advance.html">
+                                            <a href="{{ asset('template') }}/default/gallery-advance.html">
                                                 <span class="pcoded-mtext">Advance Gallery</span>
                                             </a>
                                         </li>
@@ -1526,12 +1519,12 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/search-result.html">
+                                            <a href="{{ asset('template') }}/default/search-result.html">
                                                 <span class="pcoded-mtext">Simple Search</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/search-result2.html">
+                                            <a href="{{ asset('template') }}/default/search-result2.html">
                                                 <span class="pcoded-mtext">Grouping Search</span>
                                             </a>
                                         </li>
@@ -1545,22 +1538,22 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/job-card-view.html">
+                                            <a href="{{ asset('template') }}/default/job-card-view.html">
                                                 <span class="pcoded-mtext">Card View</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/job-details.html">
+                                            <a href="{{ asset('template') }}/default/job-details.html">
                                                 <span class="pcoded-mtext">Job Detailed</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/job-find.html">
+                                            <a href="{{ asset('template') }}/default/job-find.html">
                                                 <span class="pcoded-mtext">Job Find</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/job-panel-view.html">
+                                            <a href="{{ asset('template') }}/default/job-panel-view.html">
                                                 <span class="pcoded-mtext">Job Panel View</span>
                                             </a>
                                         </li>
@@ -1576,22 +1569,22 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/ck-editor.html">
+                                            <a href="{{ asset('template') }}/default/ck-editor.html">
                                                 <span class="pcoded-mtext">CK-Editor</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/wysiwyg-editor.html">
+                                            <a href="{{ asset('template') }}/default/wysiwyg-editor.html">
                                                 <span class="pcoded-mtext">WYSIWYG Editor</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/ace-editor.html">
+                                            <a href="{{ asset('template') }}/default/ace-editor.html">
                                                 <span class="pcoded-mtext">Ace Editor</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/long-press-editor.html">
+                                            <a href="{{ asset('template') }}/default/long-press-editor.html">
                                                 <span class="pcoded-mtext">Long Press Editor</span>
                                             </a>
                                         </li>
@@ -1606,17 +1599,17 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/invoice.html">
+                                            <a href="{{ asset('template') }}/default/invoice.html">
                                                 <span class="pcoded-mtext">Invoice</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/invoice-summary.html">
+                                            <a href="{{ asset('template') }}/default/invoice-summary.html">
                                                 <span class="pcoded-mtext">Invoice Summary</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/invoice-list.html">
+                                            <a href="{{ asset('template') }}/default/invoice-list.html">
                                                 <span class="pcoded-mtext">Invoice List</span>
                                             </a>
                                         </li>
@@ -1629,12 +1622,12 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="default/event-full-calender.html">
+                                            <a href="{{ asset('template') }}/default/event-full-calender.html">
                                                 <span class="pcoded-mtext">Full Calendar</span>
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="default/event-clndr.html">
+                                            <a href="{{ asset('template') }}/default/event-clndr.html">
                                                 <span class="pcoded-mtext">CLNDER</span>
                                                 <span class="pcoded-badge label label-info">NEW</span>
                                             </a>
@@ -1648,13 +1641,13 @@
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="default/file-upload.html">
+                                    <a href="{{ asset('template') }}/default/file-upload.html">
                                         <span class="pcoded-micon"><i class="feather icon-upload-cloud"></i></span>
                                         <span class="pcoded-mtext">File Upload</span>
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="default/change-loges.html">
+                                    <a href="{{ asset('template') }}/default/change-loges.html">
                                         <span class="pcoded-micon"><i
                                                 class="feather icon-briefcase"></i><b>CL</b></span>
                                         <span class="pcoded-mtext">Change Loges</span>
@@ -1701,7 +1694,7 @@
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="default/sample-page.html">
+                                    <a href="{{ asset('template') }}/default/sample-page.html">
                                         <span class="pcoded-micon"><i class="feather icon-watch"></i></span>
                                         <span class="pcoded-mtext">Sample Page</span>
                                     </a>
@@ -2347,31 +2340,31 @@
         <ul class="iew-download">
             <li>
                 <a href="http://www.google.com/chrome/">
-                    <img src="./{{ asset('template') }}/files/assets/images/browser/chrome.png" alt="Chrome">
+                    <img src="{{ asset('template') }}/files/assets/images/browser/chrome.png" alt="Chrome">
                     <div>Chrome</div>
                 </a>
             </li>
             <li>
                 <a href="https://www.mozilla.org/en-US/firefox/new/">
-                    <img src="./{{ asset('template') }}/files/assets/images/browser/firefox.png" alt="Firefox">
+                    <img src="{{ asset('template') }}/files/assets/images/browser/firefox.png" alt="Firefox">
                     <div>Firefox</div>
                 </a>
             </li>
             <li>
                 <a href="http://www.opera.com">
-                    <img src="./{{ asset('template') }}/files/assets/images/browser/opera.png" alt="Opera">
+                    <img src="{{ asset('template') }}/files/assets/images/browser/opera.png" alt="Opera">
                     <div>Opera</div>
                 </a>
             </li>
             <li>
                 <a href="https://www.apple.com/safari/">
-                    <img src="./{{ asset('template') }}/files/assets/images/browser/safari.png" alt="Safari">
+                    <img src="{{ asset('template') }}/files/assets/images/browser/safari.png" alt="Safari">
                     <div>Safari</div>
                 </a>
             </li>
             <li>
                 <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-                    <img src="./{{ asset('template') }}/files/assets/images/browser/ie.png" alt="">
+                    <img src="{{ asset('template') }}/files/assets/images/browser/ie.png" alt="">
                     <div>IE (9 & above)</div>
                 </a>
             </li>
