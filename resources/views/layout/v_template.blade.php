@@ -1502,5 +1502,21 @@
 <script src="{{ asset('template') }}/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{ asset('template') }}/dist/js/pages/dashboard.js"></script>
+
+<script>
+    <?php 
+    $protocol='';
+    if (isset($_SERVER['HTTPS']) &&
+    ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1) ||
+    isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
+    $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
+        $protocol = 'https://';
+    }
+    else {
+    $protocol = 'http://';
+    }
+    ?>
+    alert("<?php echo $protocol.$_SERVER['HTTP_HOST'] ;   ?> ");
+</script>
 </body>
 </html>
