@@ -56,7 +56,7 @@ return [
 
     'url' => env('APP_URL', 'https://'),
 
-    'asset_url' => env('ASSET_URL','https://'),
+    'asset_url' => env('ASSET_URL'),
 
     /*
     |--------------------------------------------------------------------------
